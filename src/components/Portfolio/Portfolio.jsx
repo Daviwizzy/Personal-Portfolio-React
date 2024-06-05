@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import "./Portfolio.css";
-import { Swiper, SwiperSlide } from "swiper/react"
+import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import Sidebar from "../../img/sidebar.png";
 import Ecommerce from "../../img/ecommerce.png";
@@ -13,7 +13,7 @@ const Portfolio = () => {
   return (
     <div className="portfolio" id="portfolio">
       {/* heading */}
-      <span style={{color: darkMode?'white': ''}}>Recent Projects</span>
+      <span style={{ color: darkMode ? "white" : "" }}>Recent Projects</span>
       <span>Portfolio</span>
 
       {/* slider */}
@@ -24,16 +24,40 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <img src={Sidebar} alt="" />
+          <a
+            href="https://github.com/Daviwizzy"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={Sidebar} alt="" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Ecommerce} alt="" />
+          <a
+            href="https://github.com/Daviwizzy"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={Ecommerce} alt="" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={MusicApp} alt="" />
+          <a
+            href="https://github.com/Daviwizzy"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={MusicApp} alt="" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={HOC} alt="" />
+          <a
+            href="https://github.com/Daviwizzy"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={HOC} alt="" />
+          </a>
         </SwiperSlide>
       </Swiper>
     </div>

@@ -15,22 +15,22 @@ const Testimonial = () => {
     {
       img: profilePic1,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "Working with David was a fantastic experience. They transformed our outdated website into a modern, user-friendly platform that has significantly boosted our online presence and customer engagement.",
     },
     {
       img: profilePic2,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "The website David developed for our e-commerce store is outstanding. The design is sleek, the navigation is intuitive, and the performance is top-notch. Our sales have increased dramatically since the launch",
     },
     {
       img: profilePic3,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "I highly recommend David for web development services. They delivered a custom website that perfectly fits our brand and business goals. Their attention to detail and professionalism are unparalleled",
     },
     {
       img: profilePic4,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "From start to finish, David provided exceptional service. They were responsive, creative, and knowledgeable. Our new website is everything we hoped for and more. We couldn’t be happier with the result.",
     },
   ];
 

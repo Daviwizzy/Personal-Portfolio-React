@@ -1,7 +1,7 @@
 .card {
   width: 10rem;
   height: 13rem;
-  position: absolute;
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 1rem;

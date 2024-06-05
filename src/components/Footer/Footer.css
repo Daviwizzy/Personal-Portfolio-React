@@ -20,9 +20,24 @@
   display: flex;
   gap: 2rem;
 }
+.f-icons a:hover {
+  transform: scale(1.1);
+}
 
-@media screen and (max-width: 480px){
-  .f-content{
-    transform: scale(.5);
+.email-link {
+  color: white; /* Change the color */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Make it bold */
+  font-size: 16px; /* Adjust the font size */
+}
+
+.email-link:hover {
+  color: #ff4500; /* Change color on hover */
+}
+
+
+@media screen and (max-width: 480px) {
+  .f-content {
+    transform: scale(0.5);
   }
 }

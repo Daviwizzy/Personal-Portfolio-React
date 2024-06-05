@@ -7,7 +7,7 @@ import Shopify from "../../img/Shopify.png";
 import Facebook from "../../img/Facebook.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import {Link} from 'react-scroll'
+import { Link } from "react-scroll";
 const Works = () => {
   // context
   const theme = useContext(themeContext);
@@ -25,14 +25,15 @@ const Works = () => {
           </span>
           <span>Brands & Clients</span>
           <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
+            I offer a wide range of web development services
             <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
+            to help you establish a strong online presence.
             <br />
-            y dummy text of printingLorem
+            My goal is to create websites that are not only
             <br />
-            ispum is simpley dummy text of printing
+            visually appealing but also functional,
+            <br />
+            user-friendly, and optimized for performance.
           </spane>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
@@ -53,9 +54,16 @@ const Works = () => {
           transition={{ duration: 3.5, type: "spring" }}
           className="w-mainCircle"
         >
-          <div className="w-secCircle">
-            <img src={Upwork} alt="" />
-          </div>
+          {" "}
+          <a
+            href="https://www.upwork.com/freelancers/~016d210f26c38fd85f?mp_source=share"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="w-secCircle">
+              <img src={Upwork} alt="" />
+            </div>
+          </a>
           <div className="w-secCircle">
             <img src={Fiverr} alt="" />
           </div>
@@ -65,9 +73,15 @@ const Works = () => {
           <div className="w-secCircle">
             <img src={Shopify} alt="" />
           </div>
-          <div className="w-secCircle">
-            <img src={Facebook} alt="" />
-          </div>
+          <a
+            href="https://web.facebook.com/daviwhizzy"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="w-secCircle">
+              <img src={Facebook} alt="" />
+            </div>
+          </a>
         </motion.div>
         {/* background Circles */}
         <div className="w-backCircle blueCircle"></div>

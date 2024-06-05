@@ -6,8 +6,8 @@ const Card = ({emoji, heading, detail, color}) => {
     <div className="card" style={{borderColor: {color}}}> 
       <img src={emoji} alt="" />
       <span>{heading}</span>
-      <span>{detail}</span>
-      <button className="c-button">LEARN MORE</button>
+      <span>{detail}</span><a href="https://wa.me/+2349044974094" target="_blank">
+      <button className="c-button">Message Me</button></a>
     </div>
   );
 };
